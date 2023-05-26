@@ -1,0 +1,17 @@
+REM	=============================================================================================================
+REM 	Title: Rotate Screen
+REM 	Author: Mr.Cricket
+REM 	Description: Rotate Monitor within specific time
+REM 	Target: Windows 10
+REM 	Category: Prank
+REM	You can change the delay when the windows to minimize, 1 Second = 1000 Milliseconds. Change on "dd.ps1"
+REM	==============================================================================================================
+DELAY 5000
+GUI r
+DELAY 200
+STRING powershell -w h -NoP -NonI -ep Bypass D:\ss.ps1 -WindowStyle Hidden
+ENTER
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -ep Bypass D:\dd.ps1 -WindowStyle Hidden
+ENTER
