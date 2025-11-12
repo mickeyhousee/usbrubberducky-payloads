@@ -51,6 +51,22 @@ Continuously rotates the monitor screen at specified intervals. The payload:
 
 **Customization:** Modify the delay in `dd.ps1` (1 second = 1000 milliseconds) to change rotation timing.
 
+### 4. [systemInfoExfiltrate](payloads/systemInfoExfiltrate)
+**Category:** Information Gathering  
+**Target:** Windows 10  
+
+Collects comprehensive system information and saves it to the USB device. The payload:
+- Gathers operating system details (version, build, architecture)
+- Collects hardware information (CPU, RAM, manufacturer, model)
+- Retrieves network adapter configurations (IP addresses, MAC addresses, DNS servers)
+- Lists local user accounts and their status
+- Captures running processes (top 20 by CPU usage)
+- Records installed software (recent installations)
+- Collects disk information (size, free space, usage)
+- Saves all information to a timestamped text file on the USB device
+
+**Customization:** Modify the drive letter in the payload script (default: `D:\`) if your USB device uses a different drive. The script automatically detects alternative drive letters if the default is unavailable.
+
 ## Usage
 
 1. Clone this repository:

